@@ -1,0 +1,10 @@
+# DC tech lab shell: adds the lab tools to PATH and marks the prompt.
+[ -f ~/.bashrc ] && . ~/.bashrc
+export DCLAB_HOME="$HOME/dclab"
+export PATH="$DCLAB_HOME/bin:$PATH"
+PS1='\[\e[1;33m\][dclab]\[\e[0m\] \w \$ '
+dcgo() { cd "$(dclab workdir)" || return; }
+if ! systemctl is-active --quiet dclab-bmcd 2>/dev/null; then
+  echo "Note: the BMC web service (Redfish on 443) is not running. Start the lab with START-DCLAB.ps1 from Windows."
+fi
+dclab status

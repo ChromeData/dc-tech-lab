@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DC Lab</title>
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="vendor/xterm/xterm.css">
+<link rel="stylesheet" href="style.css">
+<script type="importmap">
+{ "imports": { "three": "./vendor/three/build/three.module.js", "three/addons/": "./vendor/three/examples/jsm/" } }
+</script>
+</head>
+<body class="mode-live">
+<canvas id="gl" tabindex="0" aria-label="Data hall"></canvas>
+
+<header id="bar" class="glass">
+  <div class="brand"><b>DC Lab</b><span id="rackname">DH2-R12</span></div>
+  <nav class="seg" id="modes">
+    <button data-mode="live" class="on">Live</button>
+    <button data-mode="quiz">Quiz</button>
+  </nav>
+  <div class="seg" id="views">
+    <button data-view="front">Front</button>
+    <button data-view="rear">Rear</button>
+    <button data-view="hall">Hall</button>
+    <button data-view="bench">Bench</button>
+  </div>
+  <div id="status"></div>
+</header>
+
+<div id="where" class="glass"></div>
+<div id="hint" class="glass">Click the hall, then walk with the arrow keys. Drag to look, scroll to zoom.</div>
+<canvas id="map" class="glass" width="440" height="300" title="Floor plan. Click a dot to go there."></canvas>
+<div id="hud" class="glass"></div>
+<div id="label"></div>
+<div id="toast" class="glass"></div>
+<div id="loading">Loading the data hall...</div>
+
+<aside id="live" class="glass panel">
+  <div class="phead">
+    <div id="ticket"><span class="tid">No ticket</span><span class="ttl">Open Tickets to pick one.</span><span class="prog"></span></div>
+    <nav class="seg" id="ltabs">
+      <button data-tab="console" class="on">Console</button>
+      <button data-tab="board">Tickets</button>
+    </nav>
+  </div>
+  <div id="console">
+    <div class="termwrap"><div class="termhead">Window 1</div><div class="term" id="term1"></div></div>
+    <div class="termwrap"><div class="termhead">Window 2 <small>second session: power commands, sol deactivate</small></div><div class="term" id="term2"></div></div>
+  </div>
+  <div id="board" hidden>
+    <div id="jirabar"></div>
+    <div id="tlist"></div>
+    <div id="tdetail" hidden></div>
+  </div>
+</aside>
+
+<aside id="quiz" class="glass panel">
+  <div class="qtop">
+    <div class="seg" id="qmode">
+      <button data-qm="wo" class="on">Work orders</button>
+      <button data-qm="tour">Tour</button>
+      <button data-qm="name">Name it</button>
+      <button data-qm="find">Find it</button>
+      <button data-qm="type">Type it</button>
+      <button data-qm="tags">Tag hunt</button>
+      <button data-qm="numbers">Numbers</button>
+    </div>
+    <div class="seg" id="qmodel">
+      <button data-model="tray" class="on">Compute tray</button>
+      <button data-model="rack">Rack</button>
+    </div>
+  </div>
+  <div id="qcard">
+    <div id="qprompt"></div>
+    <div id="qbody"></div>
+    <div id="qfeedback"></div>
+    <div id="qnav"></div>
+  </div>
+  <div id="qscore">
+    <div class="bar"><i id="qbar"></i></div>
+    <div id="qstats"></div>
+  </div>
+</aside>
+
+<script src="vendor/xterm/xterm.js"></script>
+<script src="vendor/xterm/addon-fit.js"></script>
+<script type="module" src="app.js"></script>
+</body>
+</html>

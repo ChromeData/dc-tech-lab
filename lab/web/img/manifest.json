@@ -1,0 +1,589 @@
+{
+ "stations": {
+  "front": {
+   "title": "In front of R12",
+   "pos": [
+    0.31,
+    -1.9,
+    1.55
+   ],
+   "hero": true
+  },
+  "rear": {
+   "title": "Rock aisle, behind R12",
+   "pos": [
+    0.31,
+    1.9500000000000002,
+    1.55
+   ],
+   "hero": true
+  },
+  "hall": {
+   "title": "Main floor, by the glass room",
+   "pos": [
+    8.7,
+    -5.0,
+    1.55
+   ],
+   "hero": true
+  },
+  "f00": {
+   "title": "Along the row",
+   "pos": [
+    -7.4,
+    -1.9,
+    1.55
+   ],
+   "hero": false
+  },
+  "r00": {
+   "title": "Rock aisle",
+   "pos": [
+    -7.4,
+    1.95,
+    1.55
+   ],
+   "hero": false
+  },
+  "f01": {
+   "title": "Along the row",
+   "pos": [
+    -6.0,
+    -1.9,
+    1.55
+   ],
+   "hero": false
+  },
+  "r01": {
+   "title": "Rock aisle",
+   "pos": [
+    -6.0,
+    1.95,
+    1.55
+   ],
+   "hero": false
+  },
+  "f02": {
+   "title": "Along the row",
+   "pos": [
+    -4.6,
+    -1.9,
+    1.55
+   ],
+   "hero": false
+  },
+  "r02": {
+   "title": "Rock aisle",
+   "pos": [
+    -4.6,
+    1.95,
+    1.55
+   ],
+   "hero": false
+  },
+  "f03": {
+   "title": "Along the row",
+   "pos": [
+    -3.2,
+    -1.9,
+    1.55
+   ],
+   "hero": false
+  },
+  "r03": {
+   "title": "Rock aisle",
+   "pos": [
+    -3.2,
+    1.95,
+    1.55
+   ],
+   "hero": false
+  },
+  "f04": {
+   "title": "Along the row",
+   "pos": [
+    -1.8,
+    -1.9,
+    1.55
+   ],
+   "hero": false
+  },
+  "r04": {
+   "title": "Rock aisle",
+   "pos": [
+    -1.8,
+    1.95,
+    1.55
+   ],
+   "hero": false
+  },
+  "f05": {
+   "title": "Along the row",
+   "pos": [
+    -0.4,
+    -1.9,
+    1.55
+   ],
+   "hero": false
+  },
+  "r05": {
+   "title": "Rock aisle",
+   "pos": [
+    -0.4,
+    1.95,
+    1.55
+   ],
+   "hero": false
+  },
+  "f06": {
+   "title": "Along the row",
+   "pos": [
+    1.0,
+    -1.9,
+    1.55
+   ],
+   "hero": false
+  },
+  "r06": {
+   "title": "Rock aisle",
+   "pos": [
+    1.0,
+    1.95,
+    1.55
+   ],
+   "hero": false
+  },
+  "f07": {
+   "title": "Along the row",
+   "pos": [
+    2.4,
+    -1.9,
+    1.55
+   ],
+   "hero": false
+  },
+  "r07": {
+   "title": "Rock aisle",
+   "pos": [
+    2.4,
+    1.95,
+    1.55
+   ],
+   "hero": false
+  },
+  "f08": {
+   "title": "Along the row",
+   "pos": [
+    3.8,
+    -1.9,
+    1.55
+   ],
+   "hero": false
+  },
+  "r08": {
+   "title": "Rock aisle",
+   "pos": [
+    3.8,
+    1.95,
+    1.55
+   ],
+   "hero": false
+  },
+  "f09": {
+   "title": "Along the row",
+   "pos": [
+    5.2,
+    -1.9,
+    1.55
+   ],
+   "hero": false
+  },
+  "r09": {
+   "title": "Rock aisle",
+   "pos": [
+    5.2,
+    1.95,
+    1.55
+   ],
+   "hero": false
+  },
+  "f10": {
+   "title": "Along the row",
+   "pos": [
+    6.6,
+    -1.9,
+    1.55
+   ],
+   "hero": false
+  },
+  "r10": {
+   "title": "Rock aisle",
+   "pos": [
+    6.6,
+    1.95,
+    1.55
+   ],
+   "hero": false
+  },
+  "f11": {
+   "title": "Along the row",
+   "pos": [
+    8.0,
+    -1.9,
+    1.55
+   ],
+   "hero": false
+  },
+  "r11": {
+   "title": "Rock aisle",
+   "pos": [
+    8.0,
+    1.95,
+    1.55
+   ],
+   "hero": false
+  },
+  "f12": {
+   "title": "Along the row",
+   "pos": [
+    9.4,
+    -1.9,
+    1.55
+   ],
+   "hero": false
+  },
+  "w0": {
+   "title": "End of the row",
+   "pos": [
+    -7.4,
+    -0.6,
+    1.55
+   ],
+   "hero": false
+  },
+  "w1": {
+   "title": "End of the row",
+   "pos": [
+    -7.4,
+    0.7,
+    1.55
+   ],
+   "hero": false
+  },
+  "e0": {
+   "title": "End of the row",
+   "pos": [
+    8.0,
+    -0.6,
+    1.55
+   ],
+   "hero": false
+  },
+  "e1": {
+   "title": "End of the row",
+   "pos": [
+    8.0,
+    0.7,
+    1.55
+   ],
+   "hero": false
+  },
+  "c0": {
+   "title": "Main floor",
+   "pos": [
+    -4.6,
+    -3.45,
+    1.55
+   ],
+   "hero": false
+  },
+  "c1": {
+   "title": "Main floor",
+   "pos": [
+    1.0,
+    -3.45,
+    1.55
+   ],
+   "hero": false
+  },
+  "c2": {
+   "title": "Main floor",
+   "pos": [
+    5.2,
+    -3.45,
+    1.55
+   ],
+   "hero": false
+  },
+  "c3": {
+   "title": "Main floor",
+   "pos": [
+    9.4,
+    -3.45,
+    1.55
+   ],
+   "hero": false
+  },
+  "m00": {
+   "title": "Main floor",
+   "pos": [
+    -5.3,
+    -5.0,
+    1.55
+   ],
+   "hero": false
+  },
+  "m01": {
+   "title": "Main floor",
+   "pos": [
+    -3.9,
+    -5.0,
+    1.55
+   ],
+   "hero": false
+  },
+  "m02": {
+   "title": "Main floor",
+   "pos": [
+    -2.5,
+    -5.0,
+    1.55
+   ],
+   "hero": false
+  },
+  "m03": {
+   "title": "Main floor",
+   "pos": [
+    -1.1,
+    -5.0,
+    1.55
+   ],
+   "hero": false
+  },
+  "m04": {
+   "title": "Main floor",
+   "pos": [
+    0.3,
+    -5.0,
+    1.55
+   ],
+   "hero": false
+  },
+  "m05": {
+   "title": "Main floor",
+   "pos": [
+    1.7,
+    -5.0,
+    1.55
+   ],
+   "hero": false
+  },
+  "m06": {
+   "title": "Main floor",
+   "pos": [
+    3.1,
+    -5.0,
+    1.55
+   ],
+   "hero": false
+  },
+  "m07": {
+   "title": "Main floor",
+   "pos": [
+    4.5,
+    -5.0,
+    1.55
+   ],
+   "hero": false
+  },
+  "m08": {
+   "title": "Main floor",
+   "pos": [
+    5.9,
+    -5.0,
+    1.55
+   ],
+   "hero": false
+  },
+  "m09": {
+   "title": "Main floor",
+   "pos": [
+    7.3,
+    -5.0,
+    1.55
+   ],
+   "hero": false
+  },
+  "m11": {
+   "title": "Main floor",
+   "pos": [
+    10.1,
+    -5.0,
+    1.55
+   ],
+   "hero": false
+  },
+  "m12": {
+   "title": "Main floor",
+   "pos": [
+    11.5,
+    -5.0,
+    1.55
+   ],
+   "hero": false
+  },
+  "n0": {
+   "title": "Main floor",
+   "pos": [
+    1.7,
+    -6.4,
+    1.55
+   ],
+   "hero": false
+  },
+  "n1": {
+   "title": "Main floor",
+   "pos": [
+    8.7,
+    -6.4,
+    1.55
+   ],
+   "hero": false
+  },
+  "p0": {
+   "title": "Under the glass room",
+   "pos": [
+    1.4,
+    -7.9,
+    1.55
+   ],
+   "hero": false
+  },
+  "p1": {
+   "title": "Under the glass room",
+   "pos": [
+    2.8,
+    -7.9,
+    1.55
+   ],
+   "hero": false
+  },
+  "p2": {
+   "title": "Under the glass room",
+   "pos": [
+    4.2,
+    -7.9,
+    1.55
+   ],
+   "hero": false
+  },
+  "p3": {
+   "title": "Under the glass room",
+   "pos": [
+    5.6,
+    -7.9,
+    1.55
+   ],
+   "hero": false
+  },
+  "p4": {
+   "title": "Under the glass room",
+   "pos": [
+    7.0,
+    -7.9,
+    1.55
+   ],
+   "hero": false
+  },
+  "p5": {
+   "title": "Under the glass room",
+   "pos": [
+    8.4,
+    -7.9,
+    1.55
+   ],
+   "hero": false
+  },
+  "q0": {
+   "title": "Under the glass bridge",
+   "pos": [
+    5.6,
+    -9.3,
+    1.55
+   ],
+   "hero": false
+  },
+  "q1": {
+   "title": "Under the glass bridge",
+   "pos": [
+    5.6,
+    -10.7,
+    1.55
+   ],
+   "hero": false
+  }
+ },
+ "tray_frames": 25,
+ "tray_top": 24,
+ "tray_ids": {
+  "bf3": 1,
+  "osfp": 2,
+  "lom": 3,
+  "bmcport": 4,
+  "tag": 5,
+  "serial": 6,
+  "dp": 7,
+  "nvme": 8,
+  "cpanel": 9,
+  "fio": 10,
+  "cmos": 11,
+  "backplane": 12,
+  "m2": 13,
+  "hmc": 14,
+  "slimline": 15,
+  "tpm": 16,
+  "fans": 17,
+  "interposer": 18,
+  "pdb": 19,
+  "ipex": 20,
+  "busbar": 21,
+  "bianca": 22,
+  "gpu": 23,
+  "cpu": 24,
+  "mezz": 25,
+  "manifold": 26,
+  "leak00": 27,
+  "leak01": 28,
+  "leak10": 29,
+  "leak11": 30,
+  "rails": 31,
+  "handles": 32,
+  "busbar_back": 201,
+  "busbar_front": 202,
+  "busbar_middle": 203
+ },
+ "plan": {
+  "row": [
+   -5.58,
+   0.0,
+   7.4399999999999995,
+   1.1
+  ],
+  "r12": [
+   0.0,
+   0.0,
+   0.62,
+   1.1
+  ],
+  "pod": [
+   5.0,
+   -8.2,
+   3.0
+  ],
+  "bench": [
+   -2.4,
+   -3.6
+  ],
+  "wall_y": 3.0
+ }
+}

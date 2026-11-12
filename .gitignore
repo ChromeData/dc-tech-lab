@@ -1,0 +1,23 @@
+# local-only: whose site the lab text names (see lab/lib/core.py)
+lab/site.local
+
+# runtime state (lives in WSL ~/dclab, never here; listed in case it is copied back)
+lab/state/
+lab/work/
+*.token
+jira.json
+jira_map.json
+
+# build and capture output
+__pycache__/
+*.pyc
+tools/out/
+blender/renders/
+*.blend1
+*.mp4
+*.webm
+
+# keys
+.ssh/
+*.pem
+*_key

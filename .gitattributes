@@ -1,0 +1,19 @@
+* text=auto
+
+# these run inside Linux: keep LF even when checked out on Windows
+*.sh        text eol=lf
+*.py        text eol=lf
+*.js        text eol=lf
+*.css       text eol=lf
+*.html      text eol=lf
+*.json      text eol=lf
+*.md        text eol=lf
+lab/bin/*   text eol=lf
+lab/sbin/*  text eol=lf
+lab/dclabrc text eol=lf
+
+*.ps1       text eol=crlf
+
+*.jpg   binary
+*.png   binary
+*.blend binary
